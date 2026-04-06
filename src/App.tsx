@@ -433,16 +433,16 @@ const SavingsSimulator = () => {
                 <div className="grid grid-cols-1 gap-4 mb-8">
                   <div className="bg-slate-50 p-6 rounded-2xl">
                     <div className="text-sm font-bold text-slate-400 uppercase mb-1">Economia Mensal Estimada</div>
-                    <div className="text-4xl font-black text-brand-green">€ {results.monthly.toFixed(2)}</div>
+                    <div className="text-4xl font-black text-brand-green">R$ {results.monthly.toFixed(2)}</div>
                   </div>
                   <div className="grid grid-cols-2 gap-4">
                     <div className="bg-slate-50 p-4 rounded-2xl">
                       <div className="text-xs font-bold text-slate-400 uppercase mb-1">Anual</div>
-                      <div className="text-xl font-bold text-slate-800">€ {results.yearly.toFixed(0)}</div>
+                      <div className="text-xl font-bold text-slate-800">R$ {results.yearly.toFixed(0)}</div>
                     </div>
                     <div className="bg-slate-50 p-4 rounded-2xl">
                       <div className="text-xs font-bold text-slate-400 uppercase mb-1">Em 25 anos</div>
-                      <div className="text-xl font-bold text-slate-800">€ {results.lifetime.toFixed(0)}</div>
+                      <div className="text-xl font-bold text-slate-800">R$ {results.lifetime.toFixed(0)}</div>
                     </div>
                   </div>
                 </div>
